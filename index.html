@@ -19,6 +19,7 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,7 +31,7 @@
 </head>
 
 <body id="page-top" class="index">
-<div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
+    <div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
 
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
@@ -53,10 +54,16 @@
                         <a href="#portfolio">Portfolio</a>
                     </li>
                     <li class="page-scroll">
+                        <a href="#technology">Technology</a>
+                    </li>
+                    <li class="page-scroll">
                         <a href="#about">About Me</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#footer">Resume</a>
                     </li>
                 </ul>
             </div>
@@ -70,7 +77,7 @@
         <div class="container" id="maincontent" tabindex="-1">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive img-profile" src="img/Square Profile.png" alt="Profile Pic">
+                    <img class="img-responsive img-profile" src="img/Square Profile.png" alt="Profile Pic" title="Yes, I realize my tie is crooked. I pay a guy $200 for headshots and you would think he'd tell me my tie is crooked. I won't be so careless with your code.">
                     <div class="intro-text">
                         <h1 class="name">Bruin Robinson</h1>
                         <hr class="star-light">
@@ -108,7 +115,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/Marvel_Battle_Icon_2_low-res.jpg" class="img-responsive" alt="Slice of cake">
+                        <img src="img/portfolio/Marvel_Battle_Icon_2_low-res.jpg" class="img-responsive" alt="Marvel Battle">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -118,58 +125,116 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cake.png" class="img-responsive" alt="Circus tent">
+                        <img src="img/portfolio/conversation-people.jpg" class="img-responsive" alt="Gabble">
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Tech Stack Section -->
+    <section class="success" id="technology">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-shadow">Technology Stack</h2>
+                    <hr class="star-light text-shadow-header">
+                </div>
+            </div>
+            <div class="row flex-wrap-center">
+                <div class="icon-container" title="Java SE8"><i class="devicon-java-plain deviconLarge"></i></div>
+                <div class="icon-container" title="PostgreSQL"><i class="devicon-postgresql-plain deviconLarge"></i></div>
+                <div class="icon-container" title="Sequelize"><i class="devicon-sequelize-plain deviconLarge"></i></div>
+                <div class="icon-container" title="NodeJS"><i class="devicon-nodejs-plain deviconLarge"></i></div>
+                <div class="icon-container" title="JavaScript ES6"><i class="devicon-javascript-plain deviconLarge"></i></div>
+                <div class="icon-container" title="Mocha Testing"><i class="devicon-mocha-plain deviconLarge"></i></div>
+                <div class="icon-container" title="MongoDB/Mongoose"><i class="devicon-mongodb-plain deviconLarge"></i></div>
+                <div class="icon-container" title="Express"><i class="devicon-express-original deviconLarge"></i></div>
+                <div class="icon-container" title="Bootstrap"><i class="devicon-bootstrap-plain deviconLarge"></i></div>
+                <div class="icon-container" title="IntelliJ"><i class="devicon-intellij-plain deviconLarge"></i></div>
+                <div class="icon-container" title="GitHub"><i class="devicon-github-plain deviconLarge"></i></div>
+                <div class="icon-container" title="Heroku"><i class="devicon-heroku-plain deviconLarge"></i></div>
+            </div>
+        </div>
+    </section>
+
     <!-- About Section -->
-    <section class="success" id="about">
+    <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Who Is This Guy?</h2>
-                    <hr class="star-light">
+                    <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>I'm a detail-oriented, customer-focused developer with a 15 years of software customer support background and management experience who solves tough problems and adapts quickly. </p>
+                    <p>I'm a detail-oriented, customer-focused developer with a 15 years of software customer support background
+                        and management experience who solves tough problems and adapts quickly. </p>
                 </div>
                 <div class="col-lg-4">
-                    <p>I'm also a family man - raising two young, strong, smart girls with my wife. When I'm not coding or spending time with my family, I'm a pretty big pop-culture enthusiast. My ability to retain mostly useless knowledge makes me a benefit at any trivia night.</p>
+                    <p>I'm also a family man - raising two young, strong, smart girls with my wife. When I'm not coding or spending
+                        time with my family, I'm a pretty big pop-culture enthusiast. My ability to retain mostly useless
+                        knowledge makes me a benefit at any trivia night.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section class="success" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
-                    <hr class="star-primary">
+                    <h2>Like What You See? Hit Me Up!</h2>
+                    <hr class="star-light">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
+            <div id="contact-section">
+                <div class="container">
 
+                    <div class="row address-details">
+
+                        <div class="col-md-3 contact-box">
+                            <div class="email contact-box" data-wow-duration="500ms" data-wow-delay=".7s">
+                                <i class="fa fa-3x fa-envelope-o contact-icon"></i>
+                                <a href="mailto:bruin324@gmail.com">Email</a>
+                                <a class="contact-small" href="mailto:bruin324@gmail.com">bruin324@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 contact-box">
+                            <div class="phone contact-box" data-wow-duration="500ms" data-wow-delay=".9s">
+                                <i class="fa fa-3x fa-phone contact-icon"></i>
+                                <a href="tel:1-843-901-1882">Phone</a>
+                                <a class="contact-small" href="tel:1-843-901-1882">(843) 901-1882</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 contact-box">
+                            <div class="email contact-box" data-wow-duration="500ms" data-wow-delay=".7s">
+                                <i class="fa fa-3x fa-linkedin contact-icon"></i>
+                                <a href="https://www.linkedin.com/in/bruin-robinson/">LinkedIn</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="phone contact-box" data-wow-duration="500ms" data-wow-delay=".9s">
+                                <i class="fa fa-3x fa-github contact-icon"></i>
+                                <a href="https://github.com/Bruin324">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="text-center">
+    <footer class="text-center" id="footer">
         <div class="footer-above">
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Location</h3>
-                        <p>Charleston, SC</p>
+                        <p style="color: #800000">Charleston, SC</p>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Around the Web</h3>
@@ -183,21 +248,23 @@
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        <h3>Resume Links</h3>
+                        <div class="resume-icons-container">
+                            <span class="skills"><a class="visible-link" href="https://docs.google.com/document/d/1GtP-KP7587kQn4BoiEp2v2TcxGbRKfd8qOIPPrHWBas/edit?usp=sharing" target="_blank"><img src="img/word-256.png" class="img-responsive resume-icons" alt="word"></a></span>
+                            <span class="skills"><a class="visible-link" href="https://drive.google.com/file/d/0BywabyusWlqvdERWSzV1OWVoNk0/view?usp=sharing" target="_blank"><img src="img/pdf-256.png" class="img-responsive resume-icons" alt="PDF"></a></span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; Bruin Robinson 2017
+            <div class="footer-below">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            Copyright &copy; Bruin Robinson 2017
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </footer>
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
@@ -223,7 +290,8 @@
                             <h2>Gimme Customers</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/Gimme_Customers-min.jpg" class="img-responsive img-centered" alt="">
-                            <p>A simple customer database built with Java SE8, Spring Boot, ThymeLeaf, PostgreSQL, JDBC, Hibernate, OAuth, Bootstrap, HTML, CSS</p>
+                            <p>A simple customer database built with Java SE8, Spring Boot, ThymeLeaf, PostgreSQL, JDBC, Hibernate,
+                                OAuth, Bootstrap, HTML, CSS</p>
                             <p>Admin User: captain / Password: serenity</p>
                             <p>Standard User: rivertam / Password: miranda</p>
                             <ul class="list-inline item-details">
@@ -261,19 +329,18 @@
                             <h2>Marvel Battle</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/Marvel_Battle_Icon_2_low-res.jpg" class="img-responsive img-centered" alt="Gimme Customers Image">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <p>A Vanilla JS game built with HTML5 and CSS3 allowing you to view and select a character from
+                                Marvel's API and do battle against another randomly chosen character.</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                <li>Repo:
+                                    <strong><a href="https://github.com/Bruin324/Marvel-Battle" target="blank">GitHub</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
+                                    <strong>June 2017</strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
+                                <li>Live Link:
+                                    <strong>Coming Soon</strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -295,22 +362,21 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Gabble</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="img/portfolio/conversation-people.jpg" class="img-responsive img-centered" alt="">
+                            <p>A simple social network site that allows users to log in, create 'gabs', see each others gabs
+                                and like them. Built with Node.JS, Express, and PostgreSQL/Sequelize. </p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                <li>Repo:
+                                    <strong><a href="https://github.com/Bruin324/week6-gabble" target="blank">GitHub</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
+                                    <strong>July 2017</strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
+                                <li>Live Link:
+                                    <strong>Coming Soon</strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
