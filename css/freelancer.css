@@ -222,7 +222,7 @@ section.success {
 
 #about {
   background-image: url(../img/spider-bruin.jpg);
-  height: 500px;
+  height: auto;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
